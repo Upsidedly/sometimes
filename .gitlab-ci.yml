@@ -1,6 +1,6 @@
 pages:
   stage: deploy
-  - cp -r public/. public
+  - cp -r docs/. docs
   artifacts:
     paths:
     - public
