@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"No test specified\"",
-    "live": "live-server --quiet --port=6969 ./public"
+    "live": "live-server --quiet --port=6969 ./docs"
   },
   "keywords": [],
   "author": "",
