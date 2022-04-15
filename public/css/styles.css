@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans);
+
+p {
+  color: aliceblue;
+  font-family: "DM Sans";
+  font-size: 2em;
+}
+
+body {
+  display: flex;
+  background-color: #282c34;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.codeblock {
+  display: block;
+  background-color: #3d4247;
+  border-radius: 0.3em;
+  padding: 0.3rem;
+  margin: 10px 0;
+  width: max-content;
+  height: max-content;
+  font-family: Inconsolata;
+  color: aliceblue;
+  font-size: 1.7em;
+  white-space: pre-wrap;
+  text-align: justify;
+}

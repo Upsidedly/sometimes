@@ -1,0 +1,8 @@
+pages:
+  stage: deploy
+  - cp -r public/. public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

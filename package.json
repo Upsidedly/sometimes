@@ -1,0 +1,13 @@
+{
+  "name": "cblocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "live": "live-server --quiet --port=6969 ./public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
